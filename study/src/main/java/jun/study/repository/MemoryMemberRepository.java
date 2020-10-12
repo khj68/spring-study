@@ -20,7 +20,6 @@ public class MemoryMemberRepository implements MemberRepository {
 
     @Override
     public Optional<Member> findById(Long id) {
-        // TODO Auto-generated method stub
         return Optional.ofNullable(store.get(id));
     }
 
@@ -38,4 +37,7 @@ public class MemoryMemberRepository implements MemberRepository {
         return member;
     }
 
+    public void clearStore() {
+        store.clear();
+    }
 }

@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - OrderApp",
+            "request": "launch",
+            "mainClass": "jun.study.OrderApp",
+            "projectName": "study"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MemberApp",
+            "request": "launch",
+            "mainClass": "jun.study.MemberApp",
+            "projectName": "study"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-StudyApplication<study>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
